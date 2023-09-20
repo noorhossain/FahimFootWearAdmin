@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp">
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আপনার নাম লিখুন (প্রথমবার লিখতে হবে) :"
+                android:id="@+id/txtName"/>
+
+            <EditText
+                android:layout_marginTop="15dp"
+                android:hint="......"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtName"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কমেন্ট লিখুন : "
+                android:id="@+id/txtTwo"/>
+
+            <EditText
+                android:layout_marginTop="15dp"
+                android:hint="......."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:id="@+id/edtCmnt"/>
+
+
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_insert_comment"
+                android:layout_gravity="center"
+                android:id="@+id/imgInsertCmnt"
+                />
+
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Can Change name "
+                android:id="@+id/txtChangeName"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:backgroundTint="@color/green200"
+    android:background="@drawable/border_shape_random_layer"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/white_exact"
+        android:background="@drawable/border_shape_random_layer"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="”ওয়ার্ডার ফরম”"
+                    android:textColor="@color/dark_purple1"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/fbutton_color_silver"/>
+
+                <TextView
+                    android:id="@+id/txtPriceInformation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="প্রতি পেয়ার এর মূল্য : ৮০ টাকা, সর্ব নিম্ন ওয়ার্ডার করতে পারবেন ৬ পেয়ার। "
+                    android:textColor="@color/fbutton_color_belize_hole3"
+                    android:textSize="16dp" />
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/fbutton_color_silver"/>
+
+
+                <TextView
+                    android:id="@+id/txtProductName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Product Name: Ladies Sponse"
+                    android:textColor="@color/mainThemeColor"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txtUnitSystem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Unit System: Six Pair"
+                    android:textColor="@color/mainThemeColor"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/fbutton_color_silver"/>
+
+
+
+                <TextView
+                    android:id="@+id/txtTotalPrice"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="১২ পেয়ার এর মোট মূল্য 160 টাকা "
+                    android:textColor="@color/purple300"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/txtWritePairOrDzn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="কত পেয়ার লিখুন : "
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/et_InputUnit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="......."
+                    android:inputType="number"
+                    android:minHeight="50dp" />
+
+
+                <TextView
+                    android:id="@+id/txtChangeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="*অর্ডার পাঠাতে নিচের বাটনে ক্লিক করুন: " />
+
+                <ImageView
+                    android:id="@+id/imgSendRequest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/ic_insert_comment" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

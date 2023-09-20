@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+
+    <!--    -->
+
+
+
+
+    <color name="shadow_start">#80000000</color>
+    <color name="shadow_end">#00000000</color>
+
+
+    <color name="firstDark">#545f20</color>
+
+    <color name="mainThemeColor">#78872d</color>
+
+
+
+    <!--    <color name="colorPrimary">#3F51B5</color>-->
+    <!--    <color name="colorPrimaryDark">#303F9F</color>-->
+
+    <color name="colorPrimary">#ff39873c</color>
+    <color name="colorPrimaryDark">#ff38733b</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="colorPrimaryNight">#5a5a5a</color>
+    <color name="colorPrimaryDarkNight">#3f3f3f</color>
+    <color name="colorAccentNight">#5a5a5a</color>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    <color name="colorPrimarySky">#098FC1</color>-->
+    <color name="colorPrimarySky">#00adee</color>
+    <color name="colorPrimaryDarkSky">#0078a5</color>
+
+    <color name="buttonStrokeColor">#0076a3</color>
+
+
+
+    <!--    <color name="colorPrimaryBlue">#3F51B5</color>-->
+
+    <!--    <color name="colorPrimaryBlue">#071EEB</color>-->
+    <color name="colorPrimaryBlue">#3F51B5</color>
+
+    <color name="colorPrimaryDarkBlue">#303F9F</color>
+
+
+
+    <color name="colorPrimaryPurple">#BA6200EA</color>
+    <color name="colorPrimaryDarkPurple">#6200EA</color>
+
+    <color name="colorPrimaryBlack">#D72C2B2B</color>
+    <color name="colorPrimaryDarkBlack">#DE000000</color>
+
+    <color name="green_primary">#3F51B5</color>
+    <color name="green_primary_dark">#303F9F</color>
+
+    <color name="colorNiceBlack">#9E9E9E</color>
+
+    <!-- accent color: red -->
+    <!-- text color: white -->
+    <!-- inverse text color: 87% black -->
+    <color name="textColorPrimaryInverse">#DE000000</color>
+    <color name="textColorSecondaryInverse">#9E9E9E</color>
+
+
+    <color name="green_accent">#FF4081</color>
+    <color name="textview_default_textcolor">#808080</color> <!--    android:textcolor="@android:color/tab_indicator_text"-->
+
+    <!--    <color name="primary_green">#ff539055</color>-->
+    <color name="primary_green">#ff39873c</color>
+    <color name="primary_dark_green">#ff38733b</color>
+
+    <color name="ic_launcher_background">#ff39873c</color>
+
+    <color name="niceColor">#0078a5</color>
+    <color name="colorAccentBlue">#FF5252</color>
+
+
+    <color name="khondo_heading">#9400D3</color>
+    <color name="RED_R">#FF0000</color>
+    <color name="GREEN_R">#008000</color>
+    <color name="BLACK_R">#000000</color>
+    <color name="listSelector">#B2DFDB</color>
+
+
+    <!--    <color name="green_primary">#4CAF50</color>-->
+    <!--    <color name="green_primary_dark">#1B5E20</color>-->
+    <!--    <color name="green_accent">#B9F6CA</color>-->
+
+    <!--    <color name="black">#000000</color>-->
+    <color name="lime700">#AEEA00</color>
+    <color name="colorAccent2">#FF4100</color>
+
+
+    <color name="nghtTxtColor">#D8FFA6</color>
+
+
+    <color name="colorPrimary2">#7323db</color>
+    <color name="colorPrimaryDark2">#5215a1</color>
+    <color name="colorBlue">#0000ff</color>
+
+    <color name="LightYellow">#FFFFE0</color>
+
+    <color name="NavajoWhite">#FFDEAD</color>
+
+    <color name="transparent">#81D4FA</color>
+
+
+    <color name="green300">#81C784</color>
+    <color name="cardview">#4CAF50</color>
+    <color name="yellow300">#FFF176</color>
+
+    <color name="color1">#70bb65</color>//সহিহ বুখারী
+    <color name="color2">#2d91c2</color>//সহিহ মুসলিম
+    <color name="color3">#27b5e5</color>//সুনানে আন-নাসায়ী
+    <color name="color4">#8e44ad</color>//সুনানে আবু দাউদ
+    <color name="color5">#4570e5</color>//জামে' আত-তিরমিজি
+    <color name="color6">#ea622e</color>//সুনানে ইবনে মাজাহ
+    <color name="color7">#6eb6f0</color>//মুয়াত্তা ইমাম মালিক
+    <color name="color8">#ef5090</color>//রিয়াদুস সলেহিন
+    <color name="color9">#ff9e80</color>//বুলুগুল মারাম
+    <color name="color10">#bedc1a</color>//আল লু'লু ওয়াল মারজান
+    <color name="color11">#eeb407</color>//সিলসিলা সহিহা
+    <color name="color12">#ef9a9a</color>//জাল জয়িফ হাদিস সিরিজ
+    <color name="color13">#616161</color>//মিশকাতুল মাসাবিহ
+    <color name="color14">#98876f</color>//৪০ হাদিস
+    <color name="color15">#00897b</color>//আদাবুল মুফরাদ
+    <color name="color16">#14ba6e</color>//সহিহ হাদিসে কুদসি
+    <color name="color17">#ef5350</color>//শামায়েলে তিরমিযি
+    <color name="color18">#cf75de</color>//সহিহ তারগিব ওয়াত তাহরিব
+
+
+    <color name="green200">#A5D6A7</color>
+    <color name="my_green200">@color/green200</color>
+
+
+    <color name="adb">#A5D6A7</color>
+
+    <color name="semiblack">#333333</color>
+
+
+    <color name="layoutbackground">#81C784</color>
+
+
+    <color name="trans100">#A7FFEB</color>
+    <color name="my_trans100">@color/trans100</color>
+
+
+    <color name="yellow200">#FFF59D</color>
+    <color name="my_yellow200">@color/yellow200</color>
+
+
+    <color name="purple100">#E1BEE7</color>
+    <color name="my_purple100">@color/purple100</color>
+
+
+    <color name="orange300">#FFB74D</color>
+
+
+    <color name="QuranKuran">#E3EEBB</color>
+    <color name="color_whitered">@color/QuranKuran</color>
+
+    <color name="mushaf2">#eeeade</color>
+    <color name="mushaf3">#ede6d3</color>
+    <color name="mushaf4">#ddcca2</color>
+    <color name="mushaf5">#dcd69c</color>
+
+
+    <color name="white_exact">#FDFDFD</color>
+
+
+
+    <color name="button_color">#00adee</color>
+
+    <color name="dark_green">#006400</color>
+    <color name="forest_green">#228b22</color>
+    <color name="original_gree">#008000</color>
+    <color name="lime_green">#00ff00</color>
+
+
+    <color name="dark_purple1">#9400D3</color>
+    <color name="dark_purple2">#8B008B</color>
+    <color name="fbutton_color_wisteria">#9400D3</color>
+
+    <color name="purple300">#BA68C8</color>
+
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27af99</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole2">#070058</color>
+    <color name="fbutton_color_belize_hole3">#001c7c</color>
+    <color name="fbutton_color_belize_hole">#FF4081</color>
+
+
+
+    <color name="fbutton_color_amethyst">#566e3d</color>
+
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+
+
+    <color name="orange">#cc7e00</color>
+
+
+
+
+    <!-- THEME DEFAULT -->
+
+    <color name="separator">#EFEFEF</color>
+
+    <!-- THEME TEAL -->
+    <color name="teal_primary">#009688</color>
+    <color name="teal_primary_dark">#00796B</color>
+    <color name="teal_primary_light">#B2DFDB</color>
+    <color name="teal_accent">#4CAF50</color>
+    <color name="teal_primary_text">#212121</color>
+    <color name="teal_secondary_text">#727272</color>
+    <color name="teal_icons">#FFFFFF</color>
+    <color name="teal_separator">#4DB6B6B6</color>
+
+    <color name="textcolorHeader">#069ECF</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorSecondary">#A5A5A5</color>
+
+    <color name="colorBlueOriginal">#ff0000ff</color>
+
+    <!--switch color-->
+
+    <color name="thumb_active">#069ECF</color>
+    <color name="track_active">#66069ECF</color>
+
+    <color name="thumb_inactive">#A5A5A5</color>
+    <color name="track_inactive">#66A5A5A5</color>
+
+    <color name="segGray">#575757</color>
+    <color name="segSky">#548DD4</color>
+
+    <color name="segNavy">#257E9C</color>
+
+    <color name="googleMapSeaColor">#AADAFF</color>
+
+
+    <!--   Full color Tajweed -->
+
+    <color name="h">#CAAE1C</color>
+    <color name="s">#069ECF</color>
+    <color name="l">#11E6CE</color>
+    <color name="n">#00ff00</color>
+    <color name="p">#B97BE4</color>
+    <color name="m">#AC215F</color>
+    <color name="q">#788ACC</color>
+    <color name="o">#A6791D</color>
+    <color name="c">#D500B7</color>
+    <color name="f">#CA57DA</color>
+    <color name="w">#D53333</color>
+    <color name="i">#4CAF50</color>
+    <color name="a">#169777</color>
+    <color name="u">#169200</color>
+    <color name="d">#FF4081</color>
+    <color name="b">#A7FFE3</color>
+    <color name="g">#FF0000</color>
+
+
+
+</resources>

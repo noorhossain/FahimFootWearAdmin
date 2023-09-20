@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<!--    <item-->
+<!--        android:title="Copy Text"-->
+<!--        android:id="@+id/menu_copy"-->
+<!--        />-->
+<!--    <item-->
+<!--        android:title="Save Image ToPhone"-->
+<!--        android:id="@+id/menu_save_img"-->
+<!--        />-->
+
+<!--    <item-->
+<!--        android:title="Save to Files"-->
+<!--        android:id="@+id/menu_saveto_files"-->
+<!--        />-->
+
+<!--    <item-->
+<!--        android:title="Save to Notes"-->
+<!--        android:id="@+id/menu_saveto_notes"-->
+<!--        />-->
+
+<!--    <item-->
+<!--        android:title="Save to Online Drive"-->
+<!--        android:id="@+id/menu_saveto_online"-->
+<!--        />-->
+
+    <item
+        android:title="Delete Post"
+        android:id="@+id/menu_delete_post"
+        />
+
+
+</menu>

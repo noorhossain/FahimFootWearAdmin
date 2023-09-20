@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Upload Product"
+                />
+
+            <Button
+                android:id="@+id/btnSeeRequestLists"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="See Request Lists"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/fbutton_color_silver"
+                android:layout_margin="20dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Main App ShowCase: "
+                android:layout_marginBottom="30dp"/>
+
+
+
+            <Button
+                android:id="@+id/btn_LADIES_PONSE"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="লেডিস পন্স  > " />
+
+            <Button
+                android:id="@+id/btn_JENTS_PONSE"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="জেন্টস পন্স  > " />
+
+            <Button
+                android:id="@+id/btn_KIDS_PONSE"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="কিডস/বাচ্চা পন্স  > " />
+
+            <Button
+                android:id="@+id/btn_LADIES_BARMIZE"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="লেডিস বার্মিজ > " />
+
+            <Button
+                android:id="@+id/btn_JENTS_BARMIZE"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="জেন্টস বার্মিজ  > " />
+
+            <Button
+                android:id="@+id/btn_KIDS_BARMIZE"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="কিডস/বাচ্চা বার্মিজ  > " />
+
+
+            <Button
+                android:id="@+id/btn_JENTS_CHOTI"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="জেন্টস চটি (পান্ডা/উডল্যান্ড)  > " />
+
+            <Button
+                android:id="@+id/btn_MAILA_LADIES"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="মাইলা লেডিস  > " />
+
+            <Button
+                android:id="@+id/btn_KANGAROO"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="ক্যাংগারু  > " />
+
+            <Button
+                android:id="@+id/btn_CADES"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="কেডস > " />
+
+            <Button
+                android:id="@+id/btn_WINTER_COLLECTIONS"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="উইন্টার কালেকশন  > " />
+
+
+            <Button
+                android:id="@+id/btn_EID_COLLECTIONS"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="ঈদ কালেকশন  > " />
+
+
+            <Button
+                android:id="@+id/btn_MISCELLINIOUS"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="অন্যান্য ক্যাটাগরি  > " />
+
+            <Button
+                android:id="@+id/btnAllCategory"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:text="সকল প্রকার > " />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

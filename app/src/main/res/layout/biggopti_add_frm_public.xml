@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BigptiAddPanelForPblc"
+    android:focusable="true"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="5dp"
+        card_view:contentPadding="5dp"
+        card_view:contentPaddingTop="5dp"
+        card_view:cardElevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                android:text="Post Book"
+                android:textColor="?attr/colorPrimaryDark"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/colorPrimaryDark"
+                android:textSize="18dp"
+                android:text="Add New Post"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="40dp">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Your Name:"
+            />
+
+
+
+        <EditText
+            android:layout_marginTop="6dp"
+            android:id="@+id/et_uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="পন্যের নাম"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Price:"
+            />
+
+
+
+        <EditText
+            android:layout_marginTop="6dp"
+            android:id="@+id/et_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="মূল্য"
+            android:inputType="number"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Unit:"
+            />
+
+
+
+        <EditText
+            android:layout_marginTop="6dp"
+            android:id="@+id/et_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="সিক্স-পেয়ার / ১-ডজন"
+            />
+
+
+        <EditText
+            android:id="@+id/et_uid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="40dp"
+            android:visibility="gone"
+             />
+
+
+
+        <EditText
+            android:id="@+id/et_uPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Phone (optional)"
+            android:layout_marginTop="40dp"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/et_uWebUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Web/blog/Post/Status Link (optional)"
+            android:layout_marginTop="40dp"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/et_uAdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Whats on your mind..."
+            android:layout_marginTop="16dp"
+            android:minHeight="200dp"
+            />
+
+
+
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_image"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="+ Photo"
+            />
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorBlue"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txtSuccess"
+            />
+
+        <ImageView
+            android:id="@+id/iv_uphoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/globe1"
+            />
+
+       
+
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_LADIES_PONSE"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="LADIES_PONSE  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_JENTS_PONSE"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="JENTS_PONSE  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_KIDS_PONSE"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="KIDS_PONSE  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_LADIES_BARMIZE"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="LADIES_BARMIZE  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_JENTS_BARMIZE"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="JENTS_BARMIZE  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_KIDS_BARMIZE"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="KIDS_BARMIZE  > "
+            />
+
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_JENTS_CHOTI"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="JENTS_CHOTI  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_MAILA_LADIES"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="MAILA_LADIES  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_KANGAROO"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="KANGAROO  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_CADES"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="CADES  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_WINTER_COLLECTIONS"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="WINTER_COLLECTIONS  > "
+            />
+
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_EID_COLLECTIONS"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="EID_COLLECTIONS  > "
+            />
+
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_MISCELLINIOUS"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="MISCELLINIOUS  > "
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_all_category"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Send All Category  > "
+            />
+        
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:id="@+id/txtAdRules"
+            android:text="Post Rules: \n\n Check Internet Connections, Back to HomeScreen and Come Again in this Screen"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:id="@+id/txtAdDisclosure"
+            android:text="Disclosers: \n\n Check Internet Connections, Back to HomeScreen and Come Again in this Screen"
+
+            />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

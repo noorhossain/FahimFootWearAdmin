@@ -1,0 +1,154 @@
+plugins {
+    id 'com.android.application'
+}
+
+
+
+android {
+
+    signingConfigs {
+        SearchListviewHighlight {
+            keyAlias 'noor01190100049'
+            keyPassword 'noor01190100049'
+            storeFile file('D:\\noor_hossain\\keystore_VIP-2\\SearchListviewHighlight.jks')
+            storePassword 'noor01190100049'
+        }
+    }
+    compileSdk 33
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "fahim.footwear.admin"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        multiDexEnabled true
+        dexOptions { // added 30-10-2020 - after version 55 published
+            javaMaxHeapSize "4g"
+        }
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.android.support:support-v4:26.1.0'
+        // the lib is old dependencies version;
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildTypes {
+        release {
+            shrinkResources false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.SearchListviewHighlight
+            renderscriptDebuggable false
+            renderscriptOptimLevel 3
+            zipAlignEnabled true
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+    ///////////////////////////////////////
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+    ////////////////////////////////////////////////
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'com.squareup.okhttp:okhttp:2.7.5'
+    implementation 'com.squareup.okhttp:okhttp-urlconnection:2.7.5'
+
+
+    // Dependency for Google Sign-In
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation 'com.google.android.gms:play-services-drive:17.0.0'
+    implementation 'com.google.http-client:google-http-client-gson:1.26.0'
+    // implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+
+
+    // Dependencies for the REST API example
+    implementation 'com.google.api-client:google-api-client:1.30.1'
+    //  implementation 'com.google.api-client:google-api-client-android:1.23.0'
+    implementation('com.google.api-client:google-api-client-android:1.26.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+    implementation 'com.google.apis:google-api-services-people:v1-rev139-1.22.0'
+
+    // implementation 'pub.devrel:easypermissions:0.3.0'
+
+    implementation('com.google.apis:google-api-services-sheets:v4-rev535-1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+
+    implementation('com.google.apis:google-api-services-drive:v3-rev110-1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+
+
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    implementation "androidx.annotation:annotation:1.7.0"
+
+    implementation 'org.jsoup:jsoup:1.13.1'
+
+    // implementation 'com.github.MikeOrtiz:TouchImageView:2.3.3'
+
+
+    implementation 'com.github.MikeOrtiz:TouchImageView:1.4.1' // last SupportLib version
+    // or
+    // implementation "com.github.MikeOrtiz:TouchImageView:$LAST_VERSION" // Android X
+
+
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01'
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation 'com.android.volley:volley:1.2.1'
+
+
+
+}
